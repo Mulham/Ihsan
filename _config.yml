@@ -1,0 +1,71 @@
+# Site
+
+title:              Ihsan Theme
+bio:                "AMP Blog Theme for Jekyll"
+description:        "Elegant and Fast Theme"
+reading_time:       true
+words_per_minute:   200
+logo:               '/assets/img/logo.png'
+locale:             en_US
+url:                https://mulham.github.io
+
+author: 'Mulham'
+author-bio:  'Web Developer'
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown      
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+
+# Social
+# if you don't have any of social below, comment the line.
+google:		          
+  #analytics:	#UA-11111000-1
+  #verify:
+  #ad-client:   #ca-pub-2222111111111000
+  #ad-slot:     #3888000000
+#bing-verify:
+email:			mulham94@gmail.com
+twitter:            mulham_ib
+#facebook:           username
+#yandex-verification:
+github:             mulham
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+youtube:          mulham94
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+# Gems
+
+plugins:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-archives
+paginate: 6
+paginate_path: /page:num/
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]

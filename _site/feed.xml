@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ihsan Theme</title>
+    <description>Elegant and Fast Theme</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 07 Feb 2020 01:47:23 +0300</pubDate>
+    <lastBuildDate>Fri, 07 Feb 2020 01:47:23 +0300</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Post with Images</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget nunc. Suscipit tellus mauris a diam maecenas sed enim. Porttitor eget dolor morbi non arcu risus. Enim lobortis scelerisque fermentum dui faucibus in ornare. In eu mi bibendum neque egestas congue quisque egestas. Aliquet risus feugiat in ante metus dictum. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Nisi lacus sed viverra tellus in. Faucibus turpis in eu mi bibendum neque. Tempus urna et pharetra pharetra massa massa.&lt;/p&gt;
+
+&lt;amp-img width=&quot;500&quot; height=&quot;300&quot; src=&quot;/assets/mourning.jpg&quot; alt=&quot;Ihsan AMP jekyll Theme&quot;&gt;&lt;/amp-img&gt;
+
+&lt;p&gt;Vitae aliquet nec ullamcorper sit amet risus nullam eget. Enim nunc faucibus a pellentesque sit amet porttitor eget. Sed cras ornare arcu dui vivamus. Laoreet sit amet cursus sit amet dictum sit. Ut tortor pretium viverra suspendisse potenti nullam ac tortor. Lacinia quis vel eros donec ac odio tempor.&lt;/p&gt;
+
+&lt;p&gt;Lobortis scelerisque fermentum dui faucibus. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Vitae justo eget magna fermentum iaculis eu non diam phasellus. Ornare arcu dui vivamus arcu felis bibendum ut tristique et. Odio eu feugiat pretium nibh. Morbi enim nunc faucibus a pellentesque sit amet. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Morbi tincidunt augue interdum velit euismod in. Nibh praesent tristique magna sit amet. Orci ac auctor augue mauris augue neque. Tortor at auctor urna nunc.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 06 Feb 2020 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/post-with-images/</link>
+        <guid isPermaLink="true">http://localhost:4000/post-with-images/</guid>
+        
+        <category>Design</category>
+        
+        <category>Beauty</category>
+        
+        <category>HTML</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Post with Code</title>
+        <description>&lt;p&gt;Here’s a line of code&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    int b = 0;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And Here’s a block of code&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//start the transaction&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$query&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;BEGIN WORK;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mysql_query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//stop the transaction&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$sql&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ROLLBACK;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mysql_query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//commit the transaction&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$sql&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;COMMIT;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mysql_query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;and That’s Quotation: 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget nunc. Suscipit tellus mauris a diam maecenas sed enim.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And a bigger code&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//category.php&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'connect.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'header.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ 
+&lt;span class=&quot;c1&quot;&gt;//first select the category based on $_GET['cat_id']&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$sql&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;SELECT
+            cat_id,
+            cat_name,
+            cat_description
+        FROM
+            categories
+        WHERE
+            cat_id = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mysql_real_escape_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+ 
+&lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mysql_query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ 
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'The category could not be displayed, please try again later.'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mysql_error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mysql_num_rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'This category does not exist.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;//display category data&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$row&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mysql_fetch_assoc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;h2&amp;gt;Topics in ′'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'cat_name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'′ category&amp;lt;/h2&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+     
+        &lt;span class=&quot;c1&quot;&gt;//do a query for the topics&lt;/span&gt;
+        &lt;span class=&quot;nv&quot;&gt;$sql&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;SELECT  
+                    topic_id,
+                    topic_subject,
+                    topic_date,
+                    topic_cat
+                FROM
+                    topics
+                WHERE
+                    topic_cat = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mysql_real_escape_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+         
+        &lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mysql_query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+         
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'The topics could not be displayed, please try again later.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mysql_num_rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'There are no topics in this category yet.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;c1&quot;&gt;//prepare the table&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;table border=&quot;1&quot;&amp;gt;
+                      &amp;lt;tr&amp;gt;
+                        &amp;lt;th&amp;gt;Topic&amp;lt;/th&amp;gt;
+                        &amp;lt;th&amp;gt;Created at&amp;lt;/th&amp;gt;
+                      &amp;lt;/tr&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+                     
+                &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$row&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mysql_fetch_assoc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;               
+                    &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;tr&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                        &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;td class=&quot;leftpart&quot;&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                            &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;h3&amp;gt;&amp;lt;a href=&quot;topic.php?id='&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'topic_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&quot;&amp;gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'topic_subject'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;/a&amp;gt;&amp;lt;h3&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                        &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;/td&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                        &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;td class=&quot;rightpart&quot;&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                            &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'d-m-Y'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strtotime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'topic_date'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]));&lt;/span&gt;
+                        &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;/td&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                    &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;/tr&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+ 
+&lt;span class=&quot;k&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'footer.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Dignissim sodales ut eu sem. Amet volutpat consequat mauris nunc congue nisi. Pharetra convallis posuere morbi leo. Ac auctor augue mauris augue neque.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Feb 2020 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/code-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/code-post/</guid>
+        
+        <category>Design</category>
+        
+        <category>php</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>AMP Photo Slider</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget nunc. Suscipit tellus mauris a diam maecenas sed enim. Porttitor eget dolor morbi non arcu risus. Enim lobortis scelerisque fermentum dui faucibus in ornare. In eu mi bibendum neque egestas congue quisque egestas. Aliquet risus feugiat in ante metus dictum. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Nisi lacus sed viverra tellus in. Faucibus turpis in eu mi bibendum neque. Tempus urna et pharetra pharetra massa massa.&lt;/p&gt;
+
+&lt;section&gt;
+ &lt;h2 class=&quot;mb4&quot;&gt;Want&lt;/h2&gt;
+  &lt;amp-carousel type=&quot;carousel&quot; layout=&quot;fixed-height&quot; height=&quot;285&quot; controls=&quot;&quot; class=&quot;mb4&quot;&gt;
+ &lt;amp-img src=&quot;/assets/blog/want1.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want1&quot;&gt;&lt;/amp-img&gt;
+  &lt;amp-img src=&quot;/assets/blog/want2.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want2&quot;&gt;&lt;/amp-img&gt;
+    &lt;amp-img src=&quot;/assets/blog/want3.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want3&quot;&gt;&lt;/amp-img&gt;
+   &lt;amp-img src=&quot;/assets/blog/want1.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want1&quot;&gt;&lt;/amp-img&gt;
+    &lt;amp-img src=&quot;/assets/blog/want2.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want2&quot;&gt;&lt;/amp-img&gt;
+    &lt;amp-img src=&quot;/assets/blog/want3.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want3&quot;&gt;&lt;/amp-img&gt;
+   &lt;/amp-carousel&gt;
+  &lt;/section&gt;
+
+&lt;p&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 06 Feb 2020 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/amp-photo-slider/</link>
+        <guid isPermaLink="true">http://localhost:4000/amp-photo-slider/</guid>
+        
+        <category>Design</category>
+        
+        <category>CSS</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Awesome Title</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#this-is-a-headline&quot; id=&quot;markdown-toc-this-is-a-headline&quot;&gt;This is a Headline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#another-headline&quot; id=&quot;markdown-toc-another-headline&quot;&gt;Another Headline&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#second-headline&quot; id=&quot;markdown-toc-second-headline&quot;&gt;second Headline&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;this-is-a-headline&quot;&gt;This is a Headline&lt;/h1&gt;
+
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+
+&lt;h1 id=&quot;another-headline&quot;&gt;Another Headline&lt;/h1&gt;
+
+&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;h2 id=&quot;second-headline&quot;&gt;second Headline&lt;/h2&gt;
+
+&lt;p&gt;list of Elements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pharetra vel turpis nunc eget&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;entum odio eu feugiat&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;as pulvinar mattis nunc sed blandit libero volutpat. Fames ac turpis egestas maecenas.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;notice&quot;&gt;And this is a notice&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Feb 2020 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/First-Article/</link>
+        <guid isPermaLink="true">http://localhost:4000/First-Article/</guid>
+        
+        <category>Design</category>
+        
+        <category>CSS</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Post with Table</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#this-is-a-headline&quot; id=&quot;markdown-toc-this-is-a-headline&quot;&gt;This is a Headline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#another-headline&quot; id=&quot;markdown-toc-another-headline&quot;&gt;Another Headline&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#second-headline&quot; id=&quot;markdown-toc-second-headline&quot;&gt;second Headline&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;this-is-a-headline&quot;&gt;This is a Headline&lt;/h1&gt;
+
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+
+&lt;h1 id=&quot;another-headline&quot;&gt;Another Headline&lt;/h1&gt;
+
+&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;h2 id=&quot;second-headline&quot;&gt;second Headline&lt;/h2&gt;
+
+&lt;p&gt;list of Elements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pharetra vel turpis nunc eget&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;entum odio eu feugiat&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;as pulvinar mattis nunc sed blandit libero volutpat. Fames ac turpis egestas maecenas.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And this is a table&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;awdas&lt;/td&gt;
+      &lt;td&gt;awdasd&lt;/td&gt;
+      &lt;td&gt;awsd&lt;/td&gt;
+      &lt;td&gt;awsad&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;asdd&lt;/td&gt;
+      &lt;td&gt;asdwf&lt;/td&gt;
+      &lt;td&gt;asdwf&lt;/td&gt;
+      &lt;td&gt;srg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sdewf&lt;/td&gt;
+      &lt;td&gt;asef&lt;/td&gt;
+      &lt;td&gt;asefeg&lt;/td&gt;
+      &lt;td&gt;asedg&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 01 Feb 2020 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/Another-Article/</link>
+        <guid isPermaLink="true">http://localhost:4000/Another-Article/</guid>
+        
+        <category>Design</category>
+        
+        <category>CSS</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Yet Another Post</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#this-is-a-headline&quot; id=&quot;markdown-toc-this-is-a-headline&quot;&gt;This is a Headline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#another-headline&quot; id=&quot;markdown-toc-another-headline&quot;&gt;Another Headline&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#second-headline&quot; id=&quot;markdown-toc-second-headline&quot;&gt;second Headline&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;this-is-a-headline&quot;&gt;This is a Headline&lt;/h1&gt;
+
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+
+&lt;h1 id=&quot;another-headline&quot;&gt;Another Headline&lt;/h1&gt;
+
+&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;h2 id=&quot;second-headline&quot;&gt;second Headline&lt;/h2&gt;
+
+&lt;p&gt;list of Elements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pharetra vel turpis nunc eget&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;entum odio eu feugiat&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;as pulvinar mattis nunc sed blandit libero volutpat. Fames ac turpis egestas maecenas.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And this is a table&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;awdas&lt;/td&gt;
+      &lt;td&gt;awdasd&lt;/td&gt;
+      &lt;td&gt;awsd&lt;/td&gt;
+      &lt;td&gt;awsad&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;asdd&lt;/td&gt;
+      &lt;td&gt;asdwf&lt;/td&gt;
+      &lt;td&gt;asdwf&lt;/td&gt;
+      &lt;td&gt;srg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sdewf&lt;/td&gt;
+      &lt;td&gt;asef&lt;/td&gt;
+      &lt;td&gt;asefeg&lt;/td&gt;
+      &lt;td&gt;asedg&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/yet-another-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/yet-another-post/</guid>
+        
+        <category>Design</category>
+        
+        <category>CSS</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Another Post</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#this-is-a-headline&quot; id=&quot;markdown-toc-this-is-a-headline&quot;&gt;This is a Headline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#another-headline&quot; id=&quot;markdown-toc-another-headline&quot;&gt;Another Headline&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#second-headline&quot; id=&quot;markdown-toc-second-headline&quot;&gt;second Headline&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;this-is-a-headline&quot;&gt;This is a Headline&lt;/h1&gt;
+
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+
+&lt;h1 id=&quot;another-headline&quot;&gt;Another Headline&lt;/h1&gt;
+
+&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;h2 id=&quot;second-headline&quot;&gt;second Headline&lt;/h2&gt;
+
+&lt;p&gt;list of Elements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pharetra vel turpis nunc eget&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;entum odio eu feugiat&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;as pulvinar mattis nunc sed blandit libero volutpat. Fames ac turpis egestas maecenas.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And this is a table&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+      &lt;th&gt;Head&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;awdas&lt;/td&gt;
+      &lt;td&gt;awdasd&lt;/td&gt;
+      &lt;td&gt;awsd&lt;/td&gt;
+      &lt;td&gt;awsad&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;asdd&lt;/td&gt;
+      &lt;td&gt;asdwf&lt;/td&gt;
+      &lt;td&gt;asdwf&lt;/td&gt;
+      &lt;td&gt;srg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sdewf&lt;/td&gt;
+      &lt;td&gt;asef&lt;/td&gt;
+      &lt;td&gt;asefeg&lt;/td&gt;
+      &lt;td&gt;asedg&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/Another-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/Another-post/</guid>
+        
+        <category>Design</category>
+        
+        <category>CSS</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
