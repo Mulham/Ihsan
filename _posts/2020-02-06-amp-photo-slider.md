@@ -15,12 +15,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <section>
  <h2 class="mb4">Want</h2>
   <amp-carousel type="carousel" layout="fixed-height" height="285" controls="" class="mb4">
- <amp-img src="/assets/blog/want1.png" width="205" height="285" alt="Want1"></amp-img>
-  <amp-img src="/assets/blog/want2.png" width="205" height="285" alt="Want2"></amp-img>
-    <amp-img src="/assets/blog/want3.png" width="205" height="285" alt="Want3"></amp-img>
-   <amp-img src="/assets/blog/want1.png" width="205" height="285" alt="Want1"></amp-img>
-    <amp-img src="/assets/blog/want2.png" width="205" height="285" alt="Want2"></amp-img>
-    <amp-img src="/assets/blog/want3.png" width="205" height="285" alt="Want3"></amp-img>
+ <amp-img src="{{ site.baseurl }}/assets/blog/want1.png" width="205" height="285" alt="Want1"></amp-img>
+  <amp-img src="{{ site.baseurl }}/assets/blog/want2.png" width="205" height="285" alt="Want2"></amp-img>
+    <amp-img src="{{ site.baseurl }}/assets/blog/want3.png" width="205" height="285" alt="Want3"></amp-img>
+   <amp-img src="{{ site.baseurl }}/assets/blog/want1.png" width="205" height="285" alt="Want1"></amp-img>
+    <amp-img src="{{ site.baseurl }}/assets/blog/want2.png" width="205" height="285" alt="Want2"></amp-img>
+    <amp-img src="{{ site.baseurl }}/assets/blog/want3.png" width="205" height="285" alt="Want3"></amp-img>
    </amp-carousel>
   </section>
 

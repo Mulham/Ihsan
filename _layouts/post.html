@@ -46,7 +46,7 @@ layout: compress
                     {% if page.modified %}<h4 style="text-align: center"> Last Modified: {{ page.modified | date_to_string }}</h4> {% endif %}
                     {% if site.reading_time %}
                     <p class="reading-time">
-                      <amp-img height="16" width="16" src="/assets/img/time.png"></amp-img>
+                      <amp-img height="16" width="16" src="{{ site.baseurl }}/assets/img/time.png"></amp-img>
                       {% include read-time.html %}
                     </p><!-- /.entry-reading-time --><br>
                     {% endif %}
@@ -120,7 +120,7 @@ layout: compress
     
  <div style=" box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;width: 140px; height: 280px; ">
-  <amp-img height="140" width="140" src="{% if post.feature %}{{ post.feature }}{% else %}/assets/posts/pen.jpg{% endif %}" alt="{{ post.title }}" style="border-radius: 5px 5px 0 0;"></amp-img>
+  <amp-img height="140" width="140" src="{% if post.feature %}{{ post.feature }}{% else %}{{ site.baseurl }}/assets/posts/pen.jpg{% endif %}" alt="{{ post.title }}" style="border-radius: 5px 5px 0 0;"></amp-img>
   <div class="container">
     <a href="{{ site.baseurl }}{{ post.url }}"><h4>{{ post.title }}</h4></a>
     
@@ -177,16 +177,16 @@ layout: compress
   <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
    
     <li>
-        <a href="http://twitter.com/{{ site.twitter }}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Twitter"><amp-img src="/assets/img/twitter.svg" width="24" height="28.5" /></a>
+        <a href="http://twitter.com/{{ site.twitter }}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Twitter"><amp-img src="{{ site.baseurl }}/assets/img/twitter.svg" width="24" height="28.5" /></a>
     </li>
     <li>
-        <a href="https://youtube.com/user/{{ site.youtube }}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML youtube"><amp-img src="/assets/img/youtube.svg" width="24" height="28.5" /></a>
+        <a href="https://youtube.com/user/{{ site.youtube }}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML youtube"><amp-img src="{{ site.baseurl }}/assets/img/youtube.svg" width="24" height="28.5" /></a>
     </li>
                 <li>
-                    <a href="http://github.com/{{ site.github }}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Github"><amp-img src="/assets/img/github.svg" width="24" height="28.5" /></a>
+                    <a href="http://github.com/{{ site.github }}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Github"><amp-img src="{{ site.baseurl }}/assets/img/github.svg" width="24" height="28.5" /></a>
                 </li>
                 <li>
-                    <a href="mailto:{{ site.email }}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Email"><amp-img src="/assets/img/gmail.svg" width="24" height="28.5" /></a>
+                    <a href="mailto:{{ site.email }}" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Email"><amp-img src="{{ site.baseurl }}/assets/img/gmail.svg" width="24" height="28.5" /></a>
                 </li>
 </ul>    
 
@@ -199,7 +199,7 @@ layout: compress
 
   
       
-     <center>  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en"><amp-img width="63" height="25" alt="Creative Commons License" style="border-width:0" src="/assets/ccl.png" /></a><br /><span property="dct:title">{{ site.title }}</span> is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en">Attribution-NonCommercial 4.0 International</a>.
+     <center>  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en"><amp-img width="63" height="25" alt="Creative Commons License" style="border-width:0" src="{{ site.baseurl }}/assets/ccl.png" /></a><br /><span property="dct:title">{{ site.title }}</span> is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en">Attribution-NonCommercial 4.0 International</a>.
      </center> 
   </footer>
   <!-- End Footer -->  

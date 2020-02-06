@@ -3,17 +3,17 @@
   <channel>
     <title>Ihsan Theme</title>
     <description>Elegant and Fast Theme</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Feb 2020 01:47:23 +0300</pubDate>
-    <lastBuildDate>Fri, 07 Feb 2020 01:47:23 +0300</lastBuildDate>
+    <link>http://localhost:4000/Ihsan/</link>
+    <atom:link href="http://localhost:4000/Ihsan/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 07 Feb 2020 02:31:31 +0300</pubDate>
+    <lastBuildDate>Fri, 07 Feb 2020 02:31:31 +0300</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Post with Images</title>
         <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget nunc. Suscipit tellus mauris a diam maecenas sed enim. Porttitor eget dolor morbi non arcu risus. Enim lobortis scelerisque fermentum dui faucibus in ornare. In eu mi bibendum neque egestas congue quisque egestas. Aliquet risus feugiat in ante metus dictum. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Nisi lacus sed viverra tellus in. Faucibus turpis in eu mi bibendum neque. Tempus urna et pharetra pharetra massa massa.&lt;/p&gt;
 
-&lt;amp-img width=&quot;500&quot; height=&quot;300&quot; src=&quot;/assets/mourning.jpg&quot; alt=&quot;Ihsan AMP jekyll Theme&quot;&gt;&lt;/amp-img&gt;
+&lt;amp-img width=&quot;500&quot; height=&quot;300&quot; src=&quot;/Ihsan/assets/mourning.jpg&quot; alt=&quot;Ihsan AMP jekyll Theme&quot;&gt;&lt;/amp-img&gt;
 
 &lt;p&gt;Vitae aliquet nec ullamcorper sit amet risus nullam eget. Enim nunc faucibus a pellentesque sit amet porttitor eget. Sed cras ornare arcu dui vivamus. Laoreet sit amet cursus sit amet dictum sit. Ut tortor pretium viverra suspendisse potenti nullam ac tortor. Lacinia quis vel eros donec ac odio tempor.&lt;/p&gt;
 
@@ -21,8 +21,8 @@
 
 </description>
         <pubDate>Thu, 06 Feb 2020 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/post-with-images/</link>
-        <guid isPermaLink="true">http://localhost:4000/post-with-images/</guid>
+        <link>http://localhost:4000/Ihsan/post-with-images/</link>
+        <guid isPermaLink="true">http://localhost:4000/Ihsan/post-with-images/</guid>
         
         <category>Design</category>
         
@@ -150,8 +150,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 &lt;p&gt;Dignissim sodales ut eu sem. Amet volutpat consequat mauris nunc congue nisi. Pharetra convallis posuere morbi leo. Ac auctor augue mauris augue neque.&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Feb 2020 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/code-post/</link>
-        <guid isPermaLink="true">http://localhost:4000/code-post/</guid>
+        <link>http://localhost:4000/Ihsan/code-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/Ihsan/code-post/</guid>
         
         <category>Design</category>
         
@@ -167,12 +167,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 &lt;section&gt;
  &lt;h2 class=&quot;mb4&quot;&gt;Want&lt;/h2&gt;
   &lt;amp-carousel type=&quot;carousel&quot; layout=&quot;fixed-height&quot; height=&quot;285&quot; controls=&quot;&quot; class=&quot;mb4&quot;&gt;
- &lt;amp-img src=&quot;/assets/blog/want1.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want1&quot;&gt;&lt;/amp-img&gt;
-  &lt;amp-img src=&quot;/assets/blog/want2.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want2&quot;&gt;&lt;/amp-img&gt;
-    &lt;amp-img src=&quot;/assets/blog/want3.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want3&quot;&gt;&lt;/amp-img&gt;
-   &lt;amp-img src=&quot;/assets/blog/want1.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want1&quot;&gt;&lt;/amp-img&gt;
-    &lt;amp-img src=&quot;/assets/blog/want2.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want2&quot;&gt;&lt;/amp-img&gt;
-    &lt;amp-img src=&quot;/assets/blog/want3.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want3&quot;&gt;&lt;/amp-img&gt;
+ &lt;amp-img src=&quot;/Ihsan/assets/blog/want1.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want1&quot;&gt;&lt;/amp-img&gt;
+  &lt;amp-img src=&quot;/Ihsan/assets/blog/want2.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want2&quot;&gt;&lt;/amp-img&gt;
+    &lt;amp-img src=&quot;/Ihsan/assets/blog/want3.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want3&quot;&gt;&lt;/amp-img&gt;
+   &lt;amp-img src=&quot;/Ihsan/assets/blog/want1.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want1&quot;&gt;&lt;/amp-img&gt;
+    &lt;amp-img src=&quot;/Ihsan/assets/blog/want2.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want2&quot;&gt;&lt;/amp-img&gt;
+    &lt;amp-img src=&quot;/Ihsan/assets/blog/want3.png&quot; width=&quot;205&quot; height=&quot;285&quot; alt=&quot;Want3&quot;&gt;&lt;/amp-img&gt;
    &lt;/amp-carousel&gt;
   &lt;/section&gt;
 
@@ -180,8 +180,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </description>
         <pubDate>Thu, 06 Feb 2020 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/amp-photo-slider/</link>
-        <guid isPermaLink="true">http://localhost:4000/amp-photo-slider/</guid>
+        <link>http://localhost:4000/Ihsan/amp-photo-slider/</link>
+        <guid isPermaLink="true">http://localhost:4000/Ihsan/amp-photo-slider/</guid>
         
         <category>Design</category>
         
@@ -229,8 +229,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 &lt;p class=&quot;notice&quot;&gt;And this is a notice&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Feb 2020 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/First-Article/</link>
-        <guid isPermaLink="true">http://localhost:4000/First-Article/</guid>
+        <link>http://localhost:4000/Ihsan/First-Article/</link>
+        <guid isPermaLink="true">http://localhost:4000/Ihsan/First-Article/</guid>
         
         <category>Design</category>
         
@@ -309,8 +309,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 &lt;/table&gt;
 </description>
         <pubDate>Sat, 01 Feb 2020 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/Another-Article/</link>
-        <guid isPermaLink="true">http://localhost:4000/Another-Article/</guid>
+        <link>http://localhost:4000/Ihsan/Another-Article/</link>
+        <guid isPermaLink="true">http://localhost:4000/Ihsan/Another-Article/</guid>
         
         <category>Design</category>
         
@@ -389,8 +389,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 &lt;/table&gt;
 </description>
         <pubDate>Wed, 01 Jan 2020 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/yet-another-post/</link>
-        <guid isPermaLink="true">http://localhost:4000/yet-another-post/</guid>
+        <link>http://localhost:4000/Ihsan/yet-another-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/Ihsan/yet-another-post/</guid>
         
         <category>Design</category>
         
@@ -469,8 +469,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 &lt;/table&gt;
 </description>
         <pubDate>Wed, 01 Jan 2020 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/Another-post/</link>
-        <guid isPermaLink="true">http://localhost:4000/Another-post/</guid>
+        <link>http://localhost:4000/Ihsan/Another-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/Ihsan/Another-post/</guid>
         
         <category>Design</category>
         
