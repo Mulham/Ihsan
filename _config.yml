@@ -8,7 +8,6 @@ words_per_minute:   200
 logo:               '/assets/img/logo.png'
 locale:             en_US
 baseurl: /Ihsan
-
 author: 'Mulham'
 author-bio:  'Web Developer'
 # Jekyll
@@ -23,11 +22,11 @@ kramdown:
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:		          
-#  analytics:	#UA-11111000-1
-#  verify:
-#  ad-client:   #ca-pub-2222111111111000
-#  ad-slot:     #3888000000
+
+#google-analytics:	#UA-11111000-1
+#google-verify:
+#adsense-client:   #ca-pub-2222111111111000
+#adsense-slot:     #3888000000
 #bing-verify:
 email:			mulham94@gmail.com
 twitter:            mulham_ib

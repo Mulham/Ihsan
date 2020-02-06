@@ -9,13 +9,16 @@ layout: compress
 <head>
 	
     {% include head.html %}
+{% if site.google-analytics %}
 <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+{% endif %}    {% if site.adsense-client %}
     <script async custom-element="amp-auto-ads"
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
 </script>
+{% endif %}
 </head>
 <body>
-{% if site.google.analytics %}
+{% if site.google-analytics %}
 <amp-analytics type="gtag" data-credentials="include">
 <script type="application/json">
 {
@@ -30,7 +33,7 @@ layout: compress
 </amp-analytics>
 {% endif %}
     {% include nav.html %}
-    {% if site.google.ad-client %}
+    {% if site.adsense-client %}
     <amp-auto-ads type="adsense"
     data-ad-client="{{ site.google.ad-client }}">
     </amp-auto-ads>
@@ -52,10 +55,10 @@ layout: compress
                     {% endif %}
                     <div style="text-align: center">
                   
-                    <a class="ampstart-btn" href="{{site.url}}/">&larr;</a>
+                    <a class="ampstart-btn" href="{{site.baseurl}}/">&larr;</a>
 <a class="ampstart-btn" href="https://github.com/Mulham/mulham.github.io/tree/master/{{page.path}}">Edit This Page</a>
                 </div><br><br>
-{% if site.google.ad-client and site.google.ad-slot %}
+{% if site.adsense-client and site.adsense-slot %}
 <amp-ad width="100vw" height="320"
      type="adsense"
      data-ad-client="{{ site.google.ad-client }}"
@@ -68,13 +71,13 @@ layout: compress
 {% if page.feature %}
 <center>
 <figure>
-  <amp-img src="{{ page.feature }}" alt="{{ page.title }}" width="340" height="300"></amp-img>
+  <amp-img src="{{ site.baseurl }}{{ page.feature }}" alt="{{ page.title }}" width="340" height="300"></amp-img>
   <figcaption>{{ page.caption }}</figcaption>
 </figure>
 </center>
 {% endif %}
                 {{ content }}
-{% if site.google.ad-client and site.google.ad-slot %}
+{% if site.adsense-client and site.adsense-slot %}
 <amp-ad width="100vw" height="320"
      type="adsense"
      data-ad-client="{{ site.google.ad-client }}"
@@ -120,7 +123,7 @@ layout: compress
     
  <div style=" box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;width: 140px; height: 280px; ">
-  <amp-img height="140" width="140" src="{% if post.feature %}{{ post.feature }}{% else %}{{ site.baseurl }}/assets/posts/pen.jpg{% endif %}" alt="{{ post.title }}" style="border-radius: 5px 5px 0 0;"></amp-img>
+  <amp-img height="140" width="140" src="{% if post.feature %}{{ site.baseurl }}{{ post.feature }}{% else %}{{ site.baseurl }}/assets/posts/pen.jpg{% endif %}" alt="{{ post.title }}" style="border-radius: 5px 5px 0 0;"></amp-img>
   <div class="container">
     <a href="{{ site.baseurl }}{{ post.url }}"><h4>{{ post.title }}</h4></a>
     
@@ -151,13 +154,13 @@ layout: compress
 
         <h2 class="index-headline featured"><span>Author</span></h2>
     <div style="display: flex; grid-column-gap: 30px;"><div>
-    <amp-img width="120" height="120" style="border-radius:50%" src="/author.png"></amp-img>
+    <amp-img width="120" height="120" style="border-radius:50%" src="{{ site.baseurl }}/author.png"></amp-img>
         </div><div>
           
           <h3>{{ site.author }}</h3>
           <p class="bio">{{ site.author-bio }}</p>
 
-          <p> <a href="/about">Learn more</a>
+          <p> <a href="{{ site.baseurl }}/about">Learn more</a>
            
           </p>
         </div>
