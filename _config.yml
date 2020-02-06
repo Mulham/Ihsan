@@ -8,6 +8,7 @@ words_per_minute:   200
 logo:               '/assets/img/logo.png'
 locale:             en_US
 url:                https://mulham.github.io/Ihsan
+baseurl: /Ihsan
 
 author: 'Mulham'
 author-bio:  'Web Developer'

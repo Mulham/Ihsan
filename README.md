@@ -1,5 +1,7 @@
 # AMP Blog Theme for Jekyll
 
+You can check the [Live Demo](https://mulham.github.io/Ihsan)
+
 to install this theme just edit the "config.yml" file, change the logo and favicon and put your posts in “_posts” Directory.
 
 the variables of front matter of the posts in this theme can be found in "note.txt" file
