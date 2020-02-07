@@ -20,7 +20,7 @@ layout: compress
             <div class="content">
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
-                    <a class="ampstart-btn" href="{{site.url}}">
+                    <a class="ampstart-btn" href="{{site.baseurl}}">
                         <amp-img height="24" width="24" src="{{ site.baseurl }}/assets/img/home.png"></amp-img>
                     </a>
                 </div>
@@ -34,7 +34,7 @@ layout: compress
     <div class="meta">
       <div class="photo" style="background-image: url({{site.baseurl}}{{ post.feature }})"></div>
       <ul class="details">
-        <li class="author"><a href="/about">{{ site.author }}</a></li>
+        <li class="author"><a href="{{ site.baseurl }}/about">{{ site.author }}</a></li>
         <li style="color: #fff;" class="date">{{ post.date | date_to_string }}</li>
         <li class="tags">
           <ul>
@@ -59,7 +59,7 @@ layout: compress
     <div class="meta">
       <div class="photo" style="background-image: url({{site.baseurl}}{{ post.feature }})"></div>
       <ul class="details">
-        <li class="author"><a href="/about">{{ site.author }}</a></li>
+        <li class="author"><a href="{{ site.baseurl }}/about">{{ site.author }}</a></li>
         <li style="color: #fff;" class="date">{{ post.date | date_to_string }}</li>
         <li class="tags">
           <ul>
