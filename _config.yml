@@ -23,7 +23,7 @@ kramdown:
 # Social
 # if you don't have any of social below, comment the line.
 
-#google-analytics:	#UA-11111000-1
+google-analytics:	UA-80564042-1
 #google-verify:
 #adsense-client:   #ca-pub-2222111111111000
 #adsense-slot:     #3888000000
