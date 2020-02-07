@@ -23,9 +23,9 @@ layout: compress
 <script type="application/json">
 {
   "vars" : {
-    "gtag_id": "{{ site.google.analytics }}",
+    "gtag_id": "{{ site.google-analytics }}",
     "config" : {
-      "{{ site.google.analytics }}": { "groups": "default" }
+      "{{ site.google-analytics }}": { "groups": "default" }
     }
   }
 }
@@ -35,7 +35,7 @@ layout: compress
     {% include nav.html %}
     {% if site.adsense-client %}
     <amp-auto-ads type="adsense"
-    data-ad-client="{{ site.google.ad-client }}">
+    data-ad-client="{{ site.adsense-client }}">
     </amp-auto-ads>
     {% endif %}
     <!-- Header -->
@@ -61,8 +61,8 @@ layout: compress
 {% if site.adsense-client and site.adsense-slot %}
 <amp-ad width="100vw" height="320"
      type="adsense"
-     data-ad-client="{{ site.google.ad-client }}"
-     data-ad-slot="{{ site.google.ad-slot }}"
+     data-ad-client="{{ site.adsense-client }}"
+     data-ad-slot="{{ site.adsense-slot }}"
      data-auto-format="rspv"
      data-full-width="">
   <div overflow=""></div>
@@ -80,8 +80,8 @@ layout: compress
 {% if site.adsense-client and site.adsense-slot %}
 <amp-ad width="100vw" height="320"
      type="adsense"
-     data-ad-client="{{ site.google.ad-client }}"
-     data-ad-slot="{{ site.google.ad-slot }}"
+     data-ad-client="{{ site.adsense-client }}"
+     data-ad-slot="{{ site.adsense-slot }}"
      data-auto-format="rspv"
      data-full-width="">
   <div overflow=""></div>
