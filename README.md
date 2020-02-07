@@ -5,6 +5,9 @@ You can check the [Live Demo](https://mulham.github.io/Ihsan)
 to install this theme just edit the "config.yml" file, change the logo and favicon and put your posts in “_posts” Directory.
 
 the variables of front matter of the posts in this theme can be found in "note.txt" file
+# Screenshot
+
+![Ihsan AMP Blog theme for Jekyll](https://mulham.github.io/Ihsan/assets/Screenshot.png)
 
 # Features:
 
@@ -23,7 +26,7 @@ For any question, problem or idea you can open an issue here.
 
 And you can support me on [Patreon](https://patreon.com/mulham)
 
-This theme is actually a mix of Moon theme (https://github.com/TaylanTatli/Moon) and amp Simple Blog theme (https://amp.dev/documentation/templates/simple_blog) with some extra features. the blog cards are taken from [Chyno Deluxe](https://codepen.io/ChynoDeluxe/pen/bdXeqQ)
+This theme is actually a mix of [Moon theme](https://github.com/TaylanTatli/Moon) and amp [Simple Blog theme](https://amp.dev/documentation/templates/simple_blog) with some extra features. the blog cards are taken from [Chyno Deluxe](https://codepen.io/ChynoDeluxe/pen/bdXeqQ)
 
 # License
 
