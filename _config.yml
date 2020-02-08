@@ -28,6 +28,7 @@ google-analytics:	UA-80564042-1
 #adsense-client:   #ca-pub-2222111111111000
 #adsense-slot:     #3888000000
 #bing-verify:
+repository:     https://github.com/Mulham/Ihsan #full url to github repo for "Edit this page" link, comment it to disable
 email:			mulham94@gmail.com
 twitter:            mulham_ib
 #facebook:           username
